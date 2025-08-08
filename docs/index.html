@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="Being-M0.5: A Real-Time, Controllable Vision-Language-Motion Model. Accepted by ICCV 2025.">
+  <meta property="og:title" content="Being-M0.5: A Real-Time, Controllable Vision-Language-Motion Model"/>
+  <meta property="og:description" content="Being-M0.5: A Real-Time, Controllable Vision-Language-Motion Model. Accepted by ICCV 2025."/>
+  <meta property="og:url" content="https://beingbeyond.github.io/Being-M0.5"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="Being-M0.5: A Real-time Controllable Vision-Language-Motion Model">
+  <meta name="twitter:description" content="Being-M0.5: A Real-Time, Controllable Vision-Language-Motion Model. Accepted by ICCV 2025.">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <!-- <meta name="twitter:image" content="static/images/your_twitter_banner_image.png"> -->
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="multimodal learning, visual language models, byte-pair encoding, visual tokenization, MLLM, transformer, computer vision">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Being-M0.5: A Real-time Controllable Vision-Language-Motion Model</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <figure class="image">
+            <img src="static/images/being-M0.5.png" alt="Being-VL-0.5" style="max-width: 36%; height: auto; margin: 0 auto; display: block;"/>
+            </figure>
+            <br>
+            <h1 class="title is-1 publication-title">Being-M0.5: A Real-time Controllable Vision-Language-Motion Model</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a target="_blank">Bin Cao†</a><sup>1,2,3</sup>,</span>
+                <span class="author-block">
+                  <a target="_blank">Sipeng Zheng†</a><sup>7</sup>,</span>
+                  <span class="author-block">
+                    <a  target="_blank">Ye Wang</a><sup>4</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Lujie Xia</a><sup>6</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Qianshan Wei</a><sup>5</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Qin Jin</a><sup>4</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Jing Liu</a><sup>1,2</sup>,</span>
+                  <span class="author-block">
+                    <a target="_blank">Zongqing Lu</a><sup>6,7‡</sup>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>Institute of Automation, Chinese Academy of Sciences &nbsp;&nbsp; <sup>2</sup>University of Chinese Academy of Sciences;&nbsp; <sup>3</sup>Beijing Academy of Artificial Intelligence &nbsp;&nbsp; <sup>4</sup>Renmin University of China</span> <sup>5</sup>Southeast University;&nbsp;<sup>6</sup>Peking University;&nbsp;<sup>7</sup>BeingBeyond;&nbsp;
+                    <br>
+                    <span style="font-weight: bold;color:rgb(247, 142, 22);">ICCV 2025</span>&nbsp;
+                    <span class="eql-cntrb"><small><br><sup>†</sup>Equal contribution</small></span>
+                    <span class="eql-cntrb"><small><br><sup>‡</sup>Corresponding Author</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://arxiv.org/html/2410.03311v2" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- ArXiv abstract Link -->
+                    <span class="link-block">
+                      <a href="https://arxiv.org/pdf/2410.03311v2" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="ai ai-arxiv"></i>
+                      </span>
+                      <span>arXiv</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/BeingBeyond/Being-M0" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+            </div>
+            <br>
+            <figure class="image">
+            <img src="static/images/motion_control.png" alt="Framework Overview" style="max-width: 100%; height: auto; margin: 0 auto; display: block;"/>
+            </figure>
+            <br>
+            <div class="content has-text-justified">
+              <p>
+                Built on our million-scale dataset HuMo100M, we present Being-M0.5, the first real-time, controllable vision-language-motion model (VLMM), achieving high performance and practical efficiency. Being-M0.5 supports controllability via random instructions, initial poses, long-term generation, unseen motions, and part-aware motion control.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            Human motion generation holds significant potential for real-world applications. Despite recent advancements, existing vision-language-motion models (VLMMs) remain limited in achieving this goal. In this paper, we identify the lack of controllability as a critical bottleneck, where VLMMs struggle with diverse human commands, pose initialization, generation of long-term or unseen cases, and fine-grained control over individual body parts.To address these challenges, we introduce Being-M0.5, the first real-time, controllable VLMM with state-of-the-art performance. Being-M0.5 achieves its controllability through training on HuMo100M, the largest human motion dataset to date, featuring over 5 million self-collected motions, 100 million multi-task instructional instances, and detailed part-level descriptions that address a long-standing gap in the field. Additionally, we propose a novel part-aware residual quantization technique for motion tokenization, enabling precise control over individual body parts during motion generation. Extensive experiments demonstrate Being-M0.5's superior performance across a wide range of motion benchmarks. Furthermore, we provide strategic design insights and a detailed time efficiency analysis to guide the development of practical motion generators. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- Encoding Section -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Model Structure</h2>
+        <div class="content has-text-justified">
+          <figure class="image">
+          <img src="static/images/model_structure.png" alt="Priority-Guided Encoding" style="max-width: 100%; height: auto; margin: 0 auto; display: block;"/>
+          </figure>
+          <p>
+          Being-M0.5 supports multi-modal inputs/outputs, built on a 7B LLM backbone. It employs SigLIP+2MLP for visual encoding and projection with a slow-fast strategy, alongside part-aware residual quantization for motion tokenization.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Multi-stage Training Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">HuMo100M Dataset</h2>
+        <div class="content has-text-justified">
+          <figure class="image">
+          <img src="static/images/dataset_pipline.png" style="max-width: 100%; height: auto; margin: 0 auto; display: block;"/>
+          </figure>
+          <p>
+          We begin by collecting hundreds of millions of web videos. To ensure relevance to human activities, we apply a two-stage filtering process. First, keyword-based filtering removes videos lacking human-related text descriptors. Second, we employ YOLO to verify human presence through video tracking. We then use WHAM to extract SMPL parameters from the collected videos, regressing 3D human motion in world coordinates, and refine motion quality with the RL-based policy PHC.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Benchmark Results Section -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Experiments</h2>
+        <figure class="image">
+          <img src="static/images/experiment_1.png" alt="Benchmark Results Table" style="max-width: 100%; height: auto; margin: 0 auto; display: block;"/>
+        </figure>
+        <br>
+        <div class="content has-text-justified">
+        <p>
+          Comparison with previous motion methods on HumanML3D and the I2M task using the HuMo-I2M testbed. Impact of part-level motions under different setups on the HuMo-I2PM testbed.
+        </p>
+        </div>
+        <figure class="image">
+          <img src="static/images/experiment_2.png" alt="Ablation Table" style="max-width: 100%; height: auto; margin: 0 auto; display: block;"/>
+        </figure>
+        <br>
+        <div class="content has-text-justified">
+        <p>
+          Being-M0.5 inference speed for various GPUs. Comparison with previous SoTA across nine different benchmarks
+        </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Multi-stage Training Section -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-full">
+        <h2 class="title is-3">Example Cases</h2>
+        <div class="content has-text-centered" style="display: flex; flex-direction: column; align-items: center;">
+          <figure class="image" style="width: 100%; max-width: 1200px;">
+            <img src="static/images/new_part_level.png" style="width: 100%; height: auto;"/>
+          </figure>
+          <p style="margin-top: 1em; text-align: center;">
+            Visualization results of Instruct-to-PartMotion
+          </p>
+          <figure class="image" style="width: 100%; max-width: 1200px; margin-top: 2em;">
+            <img src="static/images/new_long_term_v2.png" style="width: 100%; height: auto;"/>
+          </figure>
+          <p style="margin-top: 1em; text-align: center;">
+            Visualization results of Instruct-to-LongMotion.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <p><b>Being-M0</b></p>
+<pre><code>@article{wang2024scaling,
+  title={Scaling Large Motion Models with Million-Level Human Motions},
+  author={Wang, Ye and Zheng, Sipeng and Cao, Bin and Wei, Qianshan and Zeng, Weishuai and Jin, Qin and Lu, Zongqing},
+  journal={arXiv preprint arXiv:2410.03311},
+  year={2024}
+}</code></pre>
+      <p><b>Being-M0.5</b></p>
+<pre><code>@article{wang2024scaling,
+  title={Scaling Large Motion Models with Million-Level Human Motions},
+  author={Wang, Ye and Zheng, Sipeng and Cao, Bin and Wei, Qianshan and Zeng, Weishuai and Jin, Qin and Lu, Zongqing},
+  journal={arXiv preprint arXiv:2410.03311},
+  year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+<footer class="footer">
+    <div class="container">
+        <div class="columns is-centered">
+            <div class="column is-8">
+                <div class="content">
+                    <p>
+                        This website template is licensed under a <a rel="license"
+                                                                     href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+                        Commons Attribution-ShareAlike 4.0 International License</a> and adapted from source at <a
+                            href="https://github.com/nerfies/nerfies.github.io">Nerfies</a> and <a href="https://umi-on-legs.github.io/">UMI</a>.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
