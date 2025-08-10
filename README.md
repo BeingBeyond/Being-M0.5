@@ -8,8 +8,8 @@
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)]()
 [![GitHub license](https://img.shields.io/badge/MIT-blue)]()
 
-![](docs/images/motion_control.png)
-![](docs/images/model_structure.png)
+![](images/motion_control.png)
+![](images/model_structure.png)
 </div>
 
 
