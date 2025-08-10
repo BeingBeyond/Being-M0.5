@@ -29,3 +29,11 @@ If you find our work useful, please consider citing us!
   year={2025}
 }
 ```
+```
+@inproceedings{wang2025scaling,
+title={Scaling Motion Generation Models with Million-Level Human Motions},
+author={Wang, Ye and Zheng, Sipeng and Cao, Bin and Wei, Qianshan and Zeng, Weishuai and Jin, Qin and Lu, Zongqing},
+booktitle={International Conference on Machine Learning (ICML)},
+year={2025}
+}
+```
