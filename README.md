@@ -11,8 +11,7 @@
 ![](images/motion_control.png)
 ![](images/model_structure.png)
 
-We present HuMo100M, the largest multimodal motion dataset to date, including 5 million motions and 100 million multi-task motion instructions with fine-grained, long-form, and part-level motion labels.
-Leveraging our million-scale dataset HuMo100M, we present Being-M0.5, the first real-time, controllable vision-language-motion model (VLMM) that achieves both high performance and practical efficiency. Being-M0.5 enables comprehensive controllability through five key capabilities: diverse natural language instruction following, flexible pose initialization, long-term motion sequence generation, handling of unseen motion patterns, and precise part-aware motion control.
+We present HuMo100M, the largest multimodal motion dataset to date, including 5 million motions with fine-grained, long-form, and part-level motion labels. Leveraging our million-scale dataset HuMo100M, we present Being-M0.5, the first real-time, controllable vision-language-motion model (VLMM) that achieves diverse natural language instruction following, flexible pose initialization, long-term motion sequence generation, handling of unseen motion patterns, and precise part-aware motion control.
 
 </div>
 
