@@ -20,6 +20,8 @@ We present MotionLib, the first million-level dataset for motion generation, whi
 We will release our code and part of our dataset soon.
 
 ## Citation
+If you find our work useful, please consider citing us!
+```
 @inproceedings{cao2025,
   title={A Real-Time Controllable Vision-Language-Motion Model},
   author={Bin, Cao and Zheng, Sipeng and Ye, Wang and Xia, Lujie and Wei, Qianshan and Jin, Qin and Liu, Jing and Lu, Zongqing},
