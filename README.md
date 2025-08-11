@@ -1,4 +1,4 @@
-# Being-M0.5: A Real-time Controllable Vision-Language-Motion Model
+# Being-M0.5: A Real-Time Controllable Vision-Language-Motion Model
 
 <div align="center">
 
@@ -22,10 +22,10 @@ We will release our code and part of our dataset soon.
 ## Citation
 If you find our work useful, please consider citing us!
 ```
-@inproceedings{cao2025,
+@inproceedings{cao2025real,
   title={A Real-Time Controllable Vision-Language-Motion Model},
-  author={Bin, Cao and Zheng, Sipeng and Ye, Wang and Xia, Lujie and Wei, Qianshan and Jin, Qin and Liu, Jing and Lu, Zongqing},
-  booktitle={ICCV},
+  author={Cao, Bin and Zheng, Sipeng and Wang, Ye and Xia, Lujie and Wei, Qianshan and Jin, Qin and Liu, Jing and Lu, Zongqing},
+  booktitle={International Conference on Computer Vision (ICCV)},
   year={2025}
 }
 ```
