@@ -3,7 +3,7 @@
 <div align="center">
 
 [[Website]](https://beingbeyond.github.io/Being-M0.5)
-[[arXiv]](https://arxiv.org/abs/2410.03311)
+[[arXiv]](https://arxiv.org/abs/2508.07863)
 
 [![Python Version](https://img.shields.io/badge/Python-3.10-blue.svg)]()
 [![GitHub license](https://img.shields.io/badge/MIT-blue)]()
